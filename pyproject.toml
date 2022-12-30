@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "3001 ml in finance"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+numpy = "^1.23.5"
+pandas = "^1.5.1"
+xgboost = "^1.7.1"
+jupyter = "^1.0.0"
+ipykernel = "^6.18.0"
+scikit-learn = "^1.1.3"
+tqdm = "^4.64.1"
+matplotlib = "^3.6.2"
+seaborn = "^0.12.1"
+catboost = "^1.1.1"
+lightgbm = "^3.3.3"
+scipy = "^1.9.3"
+torch = "<1.13.0"
+torchvision = "<0.13.0"
+imblearn = "^0.0"
+keras = "^2.11.0"
+tensorflow = "^2.11.0"
+statsmodels = "^0.13.5"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
