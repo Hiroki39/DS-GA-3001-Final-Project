@@ -1,3 +1,5 @@
+# DS-GA 3001 Final Project
+
 In this folder we have three subfolders:
 
 /code: the folder that contains the harness function 
